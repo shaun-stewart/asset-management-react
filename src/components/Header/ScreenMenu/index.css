@@ -1,0 +1,65 @@
+.ScreenMenu {
+    margin-top: 4em;
+    width: 100%;
+    z-index: 100;
+}
+.ScreenMenu .ui.menu {
+    background-color: #ffffff;
+    border-bottom: 2px solid #ccc;
+}
+.ScreenMenu .ui.menu a.item:hover {
+    background-color: #eee;
+}
+.ScreenMenu .ui.menu .item.header.header {
+    color: #000000;
+    display: block;
+}
+.ScreenMenu .ui.menu .item.header.header .icon {
+    margin-right: 1em;
+    cursor: pointer;
+}
+.ScreenMenu .ui.menu .item.header.right .ui.grid {
+    width: 100%;
+    margin-left: 0;
+}
+.ScreenMenu .ui.menu .item.header.right .ui.grid .ui.button {
+    width: 100%;
+}
+.ScreenMenu .ui.row.segment {
+    margin-top: 1em;
+}
+.ScreenMenu .screen-menu-title {
+    font-size: larger;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.ScreenMenu .ui.menu .icon {
+    color: #158906;
+}
+.ScreenMenu .ui.message.context-bar {
+    margin-top: -1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+@media only screen and (max-width: 767px) {
+    .ScreenMenu .ui.menu .item.right {
+        padding-top: 0;
+    }
+    .ScreenMenu .ui.segment {
+        background-color: initial;
+        border: initial;
+        box-shadow: initial;
+    }
+}
+.ScreenMenu + * {
+    margin-top: 60px !important;
+}
+@media only screen and (max-width: 767px) {
+    .ScreenMenu + * {
+        margin-top: 120px !important;
+    }
+}
+ 
