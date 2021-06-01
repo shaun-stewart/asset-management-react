@@ -1,1 +1,1 @@
-Proof of Concept y'all
+Proof of concept for an asset management system front end, built in React.
